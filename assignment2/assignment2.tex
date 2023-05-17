@@ -196,52 +196,49 @@
  \renewcommand{\thetable}{\theenumi} 
  \textbf{12.13.4.1}: 
  State which of the following are not the probability distributions of a random variable. Give reasons for your answer.
-\begin{enumerate}[label=(\alph*)]
-
-	         	        \begin{table}[h!]
-		\item		\begin{tabular}{|c|c|c|c|}
-		                \hline
-		                X & 0 & 1 & 2\\
-		                \hline	
-				Pr(X) & 0.4 & 0.4 & 0.2\\
-		                \hline	
-		                \end{tabular}
-		                \end{table}
+ \begin{enumerate}[label=(\alph*)]
 	
-	               	        \begin{table}[h!]
-    		 \item          \begin{tabular}{|c|c|c|c|c|c|}
-                                \hline
-			        X & 0 & 1 & 2 & 3 & 4\\
-                                \hline
-				Pr(X) & 0.1 & 0.5 & 0.2 & -0.1 & 0.3\\
-                                \hline
-                                \end{tabular}
-                                \end{table}
 
-		                \begin{table}[h!]
-    		 \item          \begin{tabular}{|c|c|c|c|}
-                                \hline
-                                Y & -1 & 0 & 1\\
-                                \hline
-				Pr(Y) & 0.6 & 0.1 & 0.2\\
-                                \hline
-                                \end{tabular}
-                                \end{table}
-
-                       	        \begin{table}[h!]
-    		 \item	        \begin{tabular}{|c|c|c|c|c|c|}
-                                \hline
-			        Z & 3 & 2 & 1 & 0 & -1\\
-                                \hline
-				Pr(Z) & 0.3 & 0.2 & 0.4 & 0.1 & 0.05\\
-                                \hline
-                                \end{tabular}
-                                \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                  %%
+%%  This is a LaTeX2e table fragment exported from Gnumeric.        %%
+%%                                                                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	    \begin{table}[htb]
+\item	    \input{table1.tex}
+	    \end{table}
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                  %%
+%%  This is a LaTeX2e table fragment exported from Gnumeric.        %%
+%%                                                                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	    \begin{table}[htb]
+\item	    \input{table2.tex}
+		 \end{table}
+	 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                  %%
+%%  This is a LaTeX2e table fragment exported from Gnumeric.        %%
+%%                                                                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		 \begin{table}[htb]
+ \item		 \input{table3.tex}
+		 \end{table}
+	 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                  %%
+%%  This is a LaTeX2e table fragment exported from Gnumeric.        %%
+%%                                                                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		 \begin{table}[htb]
+ \item		 \input{table4.tex}
+		 \end{table}
 \end{enumerate}
 \textbf{solution}:(b), (c) and (d) do not represent the probability distribution of a random variable.\\
 probability distribution of a random variable should satisfy
 \begin{enumerate}[label=(\alph*)]
-	\item $\pr{X_i} >0 $ for all $i=1,2,3,\Idots,n$
+	\item $\pr{X_i} >0 $ for all $i=1,2,3,\dots,n$
 	\item $ \sum_{i=1}^{i=n} \pr{X_i} =1 $
 \end{enumerate}
 \textbf{Reasons}:
